@@ -13,6 +13,7 @@
 		40BC01751DE2A5590022F23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BC01741DE2A5590022F23A /* Assets.xcassets */; };
 		40BC01781DE2A5590022F23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BC01761DE2A5590022F23A /* LaunchScreen.storyboard */; };
 		40BC01831DE2A5590022F23A /* MapPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BC01821DE2A5590022F23A /* MapPinTests.swift */; };
+		40BC018F1DE2A5AC0022F23A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BC018E1DE2A5AC0022F23A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		40BC017E1DE2A5590022F23A /* MapPinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapPinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BC01821DE2A5590022F23A /* MapPinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPinTests.swift; sourceTree = "<group>"; };
 		40BC01841DE2A5590022F23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BC018E1DE2A5AC0022F23A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BC018F1DE2A5AC0022F23A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +65,7 @@
 				40BC016C1DE2A5590022F23A /* MapPin */,
 				40BC01811DE2A5590022F23A /* MapPinTests */,
 				40BC016B1DE2A5590022F23A /* Products */,
+				40BC018D1DE2A5AC0022F23A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +98,14 @@
 				40BC01841DE2A5590022F23A /* Info.plist */,
 			);
 			path = MapPinTests;
+			sourceTree = "<group>";
+		};
+		40BC018D1DE2A5AC0022F23A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40BC018E1DE2A5AC0022F23A /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
